@@ -1,4 +1,5 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<string>
 using namespace std;
 
 int main(){
@@ -24,7 +25,7 @@ int main(){
     string another_string_from_c = c_string;
     another_string_from_c += 'c';
     cout << another_main << "\n" << another_string_from_c << "\n";
-    
+
     cout << "length: " << main.length() << "\n" << "size: " << main.size() << "\n";
     cout << "max size:" << main.max_size() << "\n" << "capacity: " << main.capacity() << "\n";
     main.shrink_to_fit();
