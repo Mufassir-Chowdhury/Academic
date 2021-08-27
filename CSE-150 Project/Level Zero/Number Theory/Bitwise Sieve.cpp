@@ -1,0 +1,1 @@
+/* It is redundant to use bitwise sieve as it does the same as vector<bool> but requires more and complex code. But we will learn that anyways later */

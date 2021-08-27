@@ -61,5 +61,8 @@ int main(){
     another_copy.emplace_back(30);
     another_copy.emplace(another_copy.begin(), 3);
     print(another_copy);
+
+    vector<bool> boolean;
+    cout << boolean.max_size() << endl;
     return 0;
 }
